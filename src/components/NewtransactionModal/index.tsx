@@ -1,11 +1,11 @@
 import Modal from 'react-modal';
 
-interface NewtransactionModalProps {
+interface NewTransactionModalProps {
   isOpen: boolean;
   onRequestClose: () => void; 
 }
 
-export function NewtransactionModal({ isOpen, onRequestClose }: NewtransactionModalProps) {
+export function NewTransactionModal({ isOpen, onRequestClose}: NewTransactionModalProps) {
  return (
     <Modal 
     isOpen={isOpen}
